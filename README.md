@@ -187,7 +187,7 @@ Refer to the [live coding portion of Lecture 6](https://github.com/rails-decal/l
 If you want to designate a path that simple_form should go to after a submit, use this syntax:
 `simple_form_for @object, :url => prefix_path`
 
-For help with validations, you should read the [Rails documentation on validation](http://guides.rubyonrails.org/active_record_validations.html), specifically the sections for "presence" and "uniqueness". You can also Google and there should be many Stack Overflow posts to help you out.
+For help with validations, you should read the [Rails documentation on validation](http://guides.rubyonrails.org/active_record_validations.html), specifically the sections for "presence" and "uniqueness". You can also Google and there should be many Stack Overflow posts to help you out. 
 
 To flash the appropriate error, use the line `flash[:error] = @pokemon.errors.full_messages.to_sentence`. This works because in `views/layouts/application.html.erb`, it is rendering something at the very end. Take a look at that file and see what it is doing. If you don't already know what `application.html.erb` does, you should Google it and understand its function.
 
