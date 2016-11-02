@@ -8,10 +8,13 @@ A: I'm guessing there's a random generator in the code. Pikachu, bulbasaur, squi
 A: 
 
 # Question 3: What would you name your own Pokemon?
+A: Boosted Monkey
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+A: passed redirect_to: back and redirect_to trainer_path(:id => current_trainer.id). Path needed something_path, and in some cases, :back was ok. 
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+A: It gives the red thing that shows when you do those errors (blank name)
 
 # Give us feedback on the project and decal below!
 A: give us more time
